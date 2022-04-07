@@ -1,5 +1,5 @@
 .nav-bar{
-    background: #181818;
+    background: #1c3342;
     width: 6.5%;
     height: 100%;
     position: absolute;
@@ -35,7 +35,7 @@
 
         a{
             font-size: 35px;
-            color: #4d4d4e;
+            color: #1c3342;
             display: block;
             line-height: 65px;
             height: 15%;
@@ -48,7 +48,7 @@
             }
 
             &:hover{
-                color:#ffd700;
+                color:#82D2D5;
 
                 svg{
                     opacity: 0;
@@ -93,7 +93,7 @@
 
         a.active{
             svg{
-                color:#ffd700;
+                color:#82D2D5;
             }
         }
 
@@ -118,7 +118,7 @@
                 line-height: 16px;
 
                 &:hover svg{
-                    color: #ffd700;
+                    color: #82D2D5;
                 }
                 
             }

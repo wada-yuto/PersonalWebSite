@@ -15,25 +15,25 @@ const Sidebar = () => (
 
         <nav>
             <NavLink exact='true' activeclassname='active' to='/'>
-                <FontAwesomeIcon icon={faHome} color="#4d4d43"/>
+                <FontAwesomeIcon icon={faHome} color="#FFFFFF"/>
             </NavLink>
             <NavLink exact='true' activeclassname='active' className="about-Link"to='/about'>
-                <FontAwesomeIcon icon={faUser} color="#4d4d43"/>
+                <FontAwesomeIcon icon={faUser} color="#FFFFFF"/>
             </NavLink>
             <NavLink exact='true' activeclassname='active' className="contact-Link"to='/conact'>
-                <FontAwesomeIcon icon={faEnvelopeSquare} color="#4d4d43"/>
+                <FontAwesomeIcon icon={faEnvelopeSquare} color="#FFFFFF"/>
             </NavLink>
         </nav>
 
         <ul>
             <li>
                 <a target="_blank" rel="nonreferrer" href="https://www.linkedin.com/in/yuto-wada-7bb980235/">
-                    <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"/>
+                    <FontAwesomeIcon icon={faLinkedin} color="#FFFFFF"/>
                 </a>
             </li>
             <li>
                 <a target="_blank" rel="nonreferrer" href="https://github.com/wada-yuto">
-                    <FontAwesomeIcon icon={faGithubAlt} color="#4d4d4e"/>
+                    <FontAwesomeIcon icon={faGithubAlt} color="#FFFFFF"/>
                 </a>
             </li>
 
